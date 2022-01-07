@@ -9,31 +9,31 @@
     "bundles": [
         {
             "id": "org.apache.felix/org.apache.felix.jaas/1.0.2",
-            "start-level": 10
+            "start-order": 10
         },
         {
             "id": "org.apache.jackrabbit/oak-core/${oak.version}",
-            "start-level": 15
+            "start-order": 15
         },
         {
             "id": "org.apache.jackrabbit/oak-commons/${oak.version}",
-            "start-level": 15
+            "start-order": 15
         },
         {
             "id": "org.apache.jackrabbit/oak-lucene/${oak.version}",
-            "start-level": 15
+            "start-order": 15
         },
         {
             "id": "org.apache.jackrabbit/oak-blob/${oak.version}",
-            "start-level": 15
+            "start-order": 15
         },
         {
             "id": "org.apache.jackrabbit/oak-jcr/${oak.version}",
-            "start-level": 15
+            "start-order": 15
         },
         {
             "id": "org.apache.sling/org.apache.sling.jcr.oak.server/1.1.4",
-            "start-level": 16
+            "start-order": 16
         }
     ],
     "configurations": {

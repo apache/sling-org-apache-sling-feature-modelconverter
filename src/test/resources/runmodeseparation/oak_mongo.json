@@ -10,12 +10,12 @@
     "bundles": [
         {
             "id": "org.mongodb/mongo-java-driver/3.4.1",
-            "start-level": 15,
+            "start-order": 15,
             "run-modes": "oak_mongo"
         },
         {
             "id": "com.h2database/h2-mvstore/1.4.196",
-            "start-level": 15,
+            "start-order": 15,
             "run-modes": "oak_mongo"
         }
     ],

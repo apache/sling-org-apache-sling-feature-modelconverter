@@ -10,7 +10,7 @@
     "bundles": [
         {
             "id": "org.apache.jackrabbit/oak-segment-tar/${oak.version}",
-            "start-level": 15,
+            "start-order": 15,
             "run-modes": "oak_tar"
         }
     ],
